@@ -1,0 +1,140 @@
+         body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .main-header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px ;
+            align-items: center;
+            justify-content: space-between ;
+        }
+
+
+
+        @font-face {
+            font-family: 'BebasNeue';
+            src: url('https://fonts.googleapis.com/css?family=Bebas Neue') format('ttf'), 
+                 
+          }
+          
+        
+        .img2 {
+            width: 4.5%;
+            object-fit: contain;
+            display: flex;
+            position: absolute;
+            padding-left: 1750px;
+            merging: auto;
+            transform: translate(2.5%, -98%);
+        }
+
+        .img1{
+            width: 20%;
+            height: 20%;
+            position: relative;
+            object-fit: contain;
+            display: flex;
+        }
+
+        .secondary-header {
+            background-color: #ffe600;
+            -webkit-text-fill-color: #ffe600;
+            padding: 4px 0;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            padding-left: 10px;
+            word-spacing: 1px;
+        }
+
+
+        .car {
+            width: 300px;
+            margin: 20px auto;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            background-color: #fff;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: px 0;
+            bottom: 0;
+            position: fixed;
+            width: 100%;
+        }
+
+        body{
+
+            font-family: gil;
+        }
+
+        .backround{
+            background-image: url(images/background2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .huracanbg{
+            background-image: url(images/huracan.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .sterratobg{
+            background-image: url(images/huracan_offroad.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .evo2{
+            background-image: url(images/evo2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            height:auto;
+            overflow-y: auto;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .white{
+            
+            font-family: 'Bebas Neue';font-size: 19px;
+            color:rgb(255, 255, 255);
+            padding-left: 17px;
+            letter-spacing: 2px;
+        }
+
+        a{
+            margin-right: 4px;
+        }
+        
+        a:link, a:visited {
+            color: #333;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            color: rgb(168, 168, 168);
+            text-decoration: none;
+        }
